@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const { notionToMarkdown } = require("./notionToMarkdown");
+const { notionToMarkdown } = require("notion-to-md");
 
 const app = express();
 app.use(cors());
